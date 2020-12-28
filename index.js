@@ -5,7 +5,7 @@ const json2csv = require("json2csv").Parser
 
 const getSoftware = async (title,dis) =>{
     const url = `https://alternativeto.net/browse/search?q=top+100`;
-    const url_1 = `https://alternativeto.net/browse/search/?p=3&q=top%20100`;
+    
     // fetch(url)
     //     .then(response=>response.text())
     //     .then(body=>{
